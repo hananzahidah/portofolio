@@ -6,7 +6,7 @@ function Load() {
 
     return(
         <div id="loader" className="fixed inset-0 flex items-center justify-center bg-load z-50">
-            <img src="https://i.gifer.com/ZKZg.gif" alt="" className="w-1/5"/>
+            <img src="https://i.gifer.com/ZKZg.gif" alt="" className="w-20"/>
         </div>
     )
 }

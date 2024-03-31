@@ -37,7 +37,7 @@
 }
 
 .bg-load {
-  background-image: url("bg-img.jpg");
+  background-image: url('bg-img.jpg');
 }
 
 .bg-about {
