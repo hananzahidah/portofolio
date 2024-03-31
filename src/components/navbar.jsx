@@ -33,7 +33,7 @@ function Navbar() {
 
     return(
 
-            <div className="fixed bg-navbar bg-opacity-70 justify-between top-0 left-0 w-full flex items-center z-50 px-5 py-5 md:px-10">
+            <div className="fixed bg-navbar bg-opacity-70 justify-between top-0 left-0 w-full flex items-center z-30 px-5 py-5 md:px-10">
                 <div className="flex items-center flex-1">
                     <span className="font-bold text-xl block"><a href="#home">HZ</a></span>
                 </div>
