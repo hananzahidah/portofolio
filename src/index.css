@@ -1,0 +1,82 @@
+.gerak {
+    animation: shake 1s infinite alternate;
+  }
+  
+@keyframes shake {
+  0% {
+    transform: translate(0, 0) ;
+  }
+
+  50% {
+    transform: translate(-1px, -1.5px) rotate(-5deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(5deg);
+  }
+}
+
+.border-animation {
+  position: relative;
+}
+
+.border-animation::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%); 
+  height: 2px;
+  width: 0;
+  background-color: #ff6593; 
+  transition: width 0.5s ease; 
+}
+
+.border-animation:hover::after {
+  width: calc(100% - 1px);
+}
+
+.bg-load {
+  background-image: url("bg-img.jpg");
+}
+
+.bg-about {
+  background-color: #dfddd9bf;
+}
+
+.bg-project {
+  background-color: #dfddd96f;
+}
+
+.bg-mySelf {
+ background-color: #ffffff6a;
+}
+
+.profile {
+  transition: transform 1s ease;
+}
+
+.profile:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.img-porto {
+  transition: transform 1s ease-in-out;
+}
+.img-porto:hover {
+  transform: scale(1.1);
+  filter: grayscale(100%)
+}
+
+.bg-contact {
+  background-image: url("images/contact.png");
+}
+
+.bg-navbar {
+  background-color: #eeeeee;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
