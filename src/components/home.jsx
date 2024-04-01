@@ -6,7 +6,7 @@ function HomePage() {
 
                 <div className="">
                     <h1 className="font-bold text-7xl tracking-wide md:text-9xl md:font-semibold">H
-                        <span className="relative font-normal">
+                        <span className="relative">
                         a
                             <div className="w-full absolute bottom-3 left-0 md:bottom-5">
                                 <img src="a.png" alt="" className=" mx-auto gerak" />

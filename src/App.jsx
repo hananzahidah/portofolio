@@ -10,7 +10,6 @@ import Load from './components/load.jsx'
 function App() {
   return (
     <>
-      <Load/>
       <Navbar/>
       <HomePage/>
       <AboutMe/>
