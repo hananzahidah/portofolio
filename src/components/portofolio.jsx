@@ -5,7 +5,13 @@ function Portofolio() {
             page_link: "", 
             page_img: "olx.png",
             page_judul: "OLX Product Page Replica",
-            git_link: "https://github.com/bimodwien/olx-replica.git"
+            git_link: ""
+        },
+        {
+            page_link: "https://to-do-list-hanan.vercel.app/",
+            page_img: "toDoList.png",
+            page_judul: "To Do List",
+            git_link: ""
         },
     ]
 
